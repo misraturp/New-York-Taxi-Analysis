@@ -8,7 +8,7 @@ This problem is a supervised regression problem. Supervised because we have the 
 
 ## Data problems I fixed
 
-![Negative and zero values graph](/images/Negative and zero values graph.png)
+![Negative and zero values graph](/images/Negative_and_zero_values_graph.png)
 
 *Negative total_amount values:* removed them since they are likely faulty data points and there weren’t many of them
 *Zero values for total_amount:* Same with negative values. Zero values are removed.
