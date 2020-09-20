@@ -14,7 +14,7 @@ This problem is a supervised regression problem. Supervised because we have the 
 *Zero values for total_amount:* Same with negative values. Zero values are removed.
 
 
-![Graph showing the too high values](/images/too high values graph.png)
+![Graph showing the too high values](/images/too_high_values_graph.png)
 
 
 *Too-high values for total_amount:* some values for total_amount were too high, going as high as 600000. As these are unlikely values for a taxi fare, I decided to come up with an upper limit. The average taxi_fare was ~$16 and there were only 1166 data points higher than $200. Compared to the 7667792 data points, this is not a great loss of information. Thus, I decided to remove data points with a total_amount value higher than 200.
@@ -73,7 +73,7 @@ The performance compares to previous models is:
 
 Here is the True vs. Predicted value plot for the tuned random forest model. X-axis is the true values and y-axis the predicted values.
 
-![Performance graph of tuned Random Forest](/images/tuned random forest graph.png)
+![Performance graph of tuned Random Forest](/images/tuned_random_forest_graph.png)
 
 ## Next steps
 As you can see from the plot above, the performance can be improved. Three ways that wasn’t tried in this notebook:
