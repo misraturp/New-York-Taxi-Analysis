@@ -1,5 +1,4 @@
-# Read me file
-#workbook
+# New York Taxi Spending Analysis
 
 ## Problem definition
 Predict the average money spent on taxi rides for each region of New York per given day and hour.
